@@ -206,6 +206,52 @@ color: black;
         }
     
     }
+    
+    .menu-up {
+        position: relative;
+        display: inline-block;
+     }
+     
+     
+     .menu-content {
+        position: absolute;
+        top: -1500%;
+        width: 900%;
+        padding: 100% 150%;
+        border-radius: 1rem;
+        display: none;
+        z-index: 20;
+        background-color: black;
+        margin-left: -100%;
+     }
+     
+     
+     .menu-up:hover .menu-content {
+        display: block;
+     }
+     
+     
+     .opening-hours{
+        position: relative;
+        display: inline-block;
+     }
+     .opening-hours-content{
+        position: absolute;
+        padding: 100% 150%;
+        border-radius: 1rem;
+        display: none;
+        z-index: 10;
+        background-color: white;
+        width: 1000%;
+        top: -1900%;
+        margin-left: -100%;
+     }
+     .opening-hours:hover .opening-hours-content {
+        display: block;
+     }
+     
+
+
 
 
 @media (max-width:430px){
@@ -265,12 +311,17 @@ input{
 }
 
 .optionsMenu{
-   right: 50%;
+   
+ 
  bottom: -2.2%;
- padding-left: -2%;
- left: 8vw;
-   padding-right: -23px;
-   a{
+
+  i{
+    gap:85%;
+   }
+
+   a{ 
+    gap:15%;
+    padding-left:30%;
        font-size: 15px;
     }
 
@@ -278,7 +329,7 @@ input{
   justify-content: center;
    font-size: 12px;
    height: 50px;
-   left: 42%;
+   left: 52%;
 }
 .reserve{
    font-size: 12px;
