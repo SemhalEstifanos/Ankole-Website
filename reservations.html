@@ -1,66 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reservatoin.css">
     <script src="https://kit.fontawesome.com/0fb1fd4ca5.js" crossorigin="anonymous"></script>
     <title>reservations</title>
 </head>
+
 <body>
-   
-    <img class="logo" src="images/ankole-Logo.svg" alt="" >
-   
+
+    <img class="logo" src="images/ankole-Logo.svg" alt="">
     <div class="reservation-page">
-        
         <div class="reservationText">
             <p>Karibu </p>
-           <h1>Reservation</h1> 
+            <h1>Reservation</h1>
         </div>
-    
-  
-
         <div class="form">
-                    <label for="fname"><b>Name:</b></label><br><br>
-                    <input type="text"   placeholder="Enter your first name" id="name" name="fname" required><br><br>
-
-                    <label for="lname"><b>Location:</b></label><br><br>
-                    <input type="text" id="lname" name="lname" required><br><br>
-
-                    <label for="lname"><b> Email Adress:</b></label><br><br>
-                    <input type="text"      placeholder="e.ginfo@gmail.com"       id="Email" name="lname" required><br><br>
-                    
-                    <label for="lname"> <b>Tell/Cell:</b></label><br><br>
-                    <input type="text" placeholder="00050700"       id="lname" name="lname" required><br><br>
-
-                    <label for="lname"> <b>Number Of Guests:</b></label><br><br>
-                    <input type="text"   placeholder="Maximun 8 guests only"   id="lname" name="lname" required><br><br>
-
-                    <label for="lname"><b>Date</b></label><br><br>
-                    <input type="text" id="lname" name="lname" required><br><br>
-
-                    <label for="lname"><b>Time</b></label><br><br>
-                    <input type="text" id="lname" name="lname" required><br><br>
-                    <input type="submit" id="submit" name="lname" required><br>
+            <div class="box">
+                <label for="fname"><b>Name:</b></label><br>
+                <input id="inputClickable" type="text" placeholder="Enter your first name" required>
+                <label for="location"><b>Location</b></label><br>
+                <input id="inputClickable" type="text" placeholder="  Kitisuru (Open 9 am Closes 11 pm)" required>
+                <label for="emai"><b> Email Adress</b></label><br>
+                <input id="inputClickable" type="email" placeholder="e.ginfo@gmail.com" required>
+                <label for="tel/cell"> <b>Tell/Cell</b></label><br>
+                <input id="inputClickable" type="text" placeholder="e.g 00050700" required>
+                <label for="guests"> <b>Number Of Guests</b></label><br>
+                <input id="inputClickable" type="number"  placeholder="(macimum of 8 guests)" required>
+                <label for="date"><b>Date</b></label><br>
+                <input id="inputClickable" type="date" name="date" required>
+                <label for="lname"><b>Time</b></label><br>
+                <input id="inputClickable" type="time" required>
+                <button class="submit">Submit</button></a>
+            </div>
         </div>
     </div>
-    <div class="optionsMenu" id="optionRegister"> 
+    <div class="optionsMenu">
         <i class="fa-solid fa-bars"></i>
         <i class="fa-regular fa-clock"></i>
-        <a href="url">Home</a>
+        <a href="index.html">Home</a>
         <a href="menu.html">Menu</a>
         <a href="events.html"> Events</a>
-        <a href="url">Live</a>
-       <a href="contacts.html"> Contacts</a>
-        <a id="reservation" href="reservations.html">Reservations</a>
+        <a href="review.html"> Review</a>
+        <a href="live.html">Live</a>
+        <a href="contacts.html"> Contacts</a>
+        <a id="reservation" href="reservations.html"><button class="reserve">Reservations</button></a>
     </div>
-    <div class="whatsapp">
-        <i class="fa-brands fa-square-whatsapp"></i>
+    <div id="whatsapp">
+        <a class="fa-brands fa-whatsapp"
+            href="https://www.facebook.com/ankolerealitytv/posts/join-our-whatsapp-group-httpschatwhatsappcomjztjazja7xs33uvkewk4b1/316441933378390/"></a>
     </div>
-
-
-
-
 
 </body>
+
 </html>

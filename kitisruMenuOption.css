@@ -1,0 +1,234 @@
+body {
+   overflow-x: hidden;
+   overflow-y: hidden;
+   width: 100%;
+   margin-top: -0;
+   margin-left: -0;
+   bottom: -0;
+   scroll-behavior: smooth;
+}
+
+
+.kitisuru {
+   display: flex;
+}
+
+
+.kitisuru-menu {
+   width: 50vw;
+   height: 100vh;
+   background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c4760165c03d467b650bcb_1.jpg);
+}
+
+
+#ankole-logo {
+   top: 25%;
+   left: 25%;
+   transform: translate(-50%, -50%);
+   z-index: 1;
+   position: absolute;
+   width: 22vb;
+}
+
+.options a{
+   text-decoration: none;
+   font-size: 25px;
+   color: black;
+   
+}
+
+
+.optionsMenu{
+   a:hover{
+       color: gray ;
+}
+
+   left: 25%;
+   transform: translate(-50%, -50%);
+   right: 0;
+   border: none;
+   text-align: center;
+
+ 
+   bottom: 9%;
+   align-items: center;
+   position: absolute;
+   z-index: 1;
+   /* margin-left: 25%; */
+  
+ 
+   i{
+   
+      color: gray;
+   }
+ 
+   display: flex;
+   gap: 3.2%;
+   width: 41%;
+   border: solid black 1px;
+   height: 79px;
+   color: black;
+   border-radius: 39px;
+   justify-content: center;
+ 
+   background-color: rgb(14, 13, 13);
+ a{
+
+   text-decoration: none;
+   font-size: 21px;
+   color: white;
+  
+ }
+
+
+
+}
+
+
+.reserve{
+   font-size: 17px;
+   color: white;
+text-align: center;
+background-color:grey ;
+border: 37px;
+border-radius: 24px;
+width: 140px;
+height: 49px;
+}
+
+
+.reserve:hover{
+
+background-color: white;
+border-radius: 24px;
+color: black;
+
+}
+
+
+
+.kitisuru-menu-list {
+   overflow-x: hidden;
+   background-color: black;
+   width: 50%;
+   overflow-y: scroll;
+   height: 100vh;
+}
+
+
+.kitisuru-menu-text {
+   position: absolute;
+   top: 50%;
+   left: 25%;
+   transform: translate(-50%, -50%);
+   line-height: 0;
+   text-align: center;
+   h3 {
+    font-weight: lighter;
+
+
+    font-size: x-large;
+    color: white;
+}
+
+
+h2 {
+    font-weight: lighter;
+
+
+    font-size: 400%;
+    color: rgb(255, 123, 0);
+}
+}
+
+
+.food-options{
+   width: 50%;
+   background-color: black;
+position: fixed;
+text-align: center;
+
+
+a {
+    /* margin-left: 2%; */
+    text-align: center;
+   padding-top: 4%;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    justify-content: center;
+   margin-right: 5%;
+    z-index: 1;
+    display: inline-block;
+  
+}
+a:hover{
+    color: orange;
+}
+}
+
+
+h2{
+font-size: xx-large;
+}
+p{
+line-height: 0.5;
+}
+h3{
+color: rgb(255, 123, 0);
+
+
+font-size: x-large;}
+.breakfast{
+
+   h2{
+      color: white;
+   }
+   padding: 0% 8%;
+   
+   padding-top: 25%;;
+   color: white;
+
+
+   /* margin-top: 15%; */
+}
+.food{
+   padding: 8%;
+   color: white;
+
+
+   line-height: 1;
+}
+.menu-item{
+   line-height: 1.5;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+.menu-item-detail{
+   display: flex;
+   align-items: center;
+   gap:2%;
+   width:90%;
+}
+.menu-item-description{
+   align-items: center;
+   p{
+       line-height: 1.5;
+   }
+}
+.price{
+   width: 11%;
+}
+#ankole-logo1{
+   margin-top: 5%;
+   width: 20%;
+}
+.drinks{
+   color: white;
+   padding: 0 8%;
+
+
+}

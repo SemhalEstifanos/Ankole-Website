@@ -1,0 +1,217 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+.logo{
+   
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    left: 19%;
+   
+}
+.socials{
+    font-size: 25px;
+  
+    top: 1%;
+    right:3%;
+ z-index: 1;   
+position: absolute;
+i{
+    color: black;
+   
+
+}
+}
+
+
+#ankole-logo {
+    top: 9%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    position: absolute;
+    width: 22vb;
+ }
+ 
+ .options a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+ }
+ 
+ 
+ .optionsMenu{
+    margin: auto;
+    left: 0;
+    right: 0;
+    border: none;
+    text-align: center;
+ 
+  
+    bottom: 9%;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    /* margin-left: 25%; */
+   
+  
+    i{
+    
+       color: gray;
+    }
+  
+    display: flex;
+    gap: 3.2%;
+    width: 41%;
+    border: solid black 1px;
+    height: 79px;
+ 
+    background-color: white;
+    color: black;
+    border-radius: 39px;
+    justify-content: center;
+  
+    background-color: rgb(2, 2, 2);
+  a{
+
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+   
+  }
+ 
+ 
+
+}
+.reserve{
+    font-size: 17px;
+    color: white;
+text-align: center;
+background-color:grey ;
+border: 37px;
+border-radius: 24px;
+width: 140px;
+height: 49px;
+}
+
+
+.reserve:hover{
+
+background-color: white;
+border-radius: 24px;
+color: black;
+
+}
+.whatsapp{
+  
+    font-size: 45px;
+    position: absolute;
+    bottom: 5%;
+    right:3%;
+    z-index:1;
+    i{  color: white;
+       
+    }
+    
+    border-radius:  50% ;    
+}
+
+
+
+
+#text{
+    padding-top: 20%;
+    line-height: 0.6;
+}
+.menu{
+    background-size: cover;
+height: 100vh;
+   
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    display: flex;
+    font-size: 21px;
+  
+    /* margin-left: 20%; */
+    #black{
+        color: white
+    }
+    h1{
+        color: white;
+        font-size: 55px;
+        text-decoration: none;
+    }
+    p{
+       
+        color: rgb(175, 11, 11);
+    }  
+   
+     }
+     a{
+        justify-content: space-between;
+        text-decoration: none;
+     }
+   
+     #optionmenu{
+         z-index: 3;
+         margin-top: 10%;
+     }
+
+.leftsidemenu{
+    h1{
+        font-size: 50px;
+    }
+   
+        width: 50%;
+        background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c34fee7c31fcb2f8c3700b_001.jpg);
+        
+
+     }
+.rightsidemenu{
+    h1{
+        font-size: 50px;
+    }
+        width: 50%;
+       background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65e5a29a2a2b1c4a493fff75_ankolegrill_Kilimani-Nights.jpg);
+       background-size: cover;
+     }
+     #socials{
+        padding: 10px;
+        font-size: medium;
+        z-index: 10;
+        display: flex;
+        color: white;
+        border-radius: 50%;
+        border: 1px solid gray;
+    
+    }
+    #whatsapp{
+        bottom: 8%;
+        right: 3%;
+        padding: 0.5% 0.6%;
+        position: absolute;
+        position: fixed;
+        padding: 10px;
+        font-size: 45px;
+        z-index: 10;
+        display: flex;
+        color: white;
+        border-radius: 50%;
+        border: 1px solid gray;
+        background-color: black;
+    
+        a{
+            z-index: 5;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    
+    }

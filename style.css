@@ -1,125 +1,6 @@
 
 
-body{
-    width: 100%; 
-    overflow-x: hidden;
-    overflow-y: hidden;
-}   
 
-
-
-.options a{
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-}
-
-
-.optionsHomePage{
-    position:absolute;
-    margin-left: 25%;
-    /* margin-top: 10%; */
-
-    #reservation{
-        margin: 1.6%;
-        padding-top: 0.9%;
-        padding-left: 3%;
-        background-color:grey ;
-        border: 37px;
-        border-radius: 24px;
-        width: 16%;
-        height: 39px;
-    }
-    
-    i{
-       margin-top: 3%;
-       color: gray;
-    }
-  
-    display: flex;
-    gap: 5%;
-    width: 43%;
-    border: solid black 1px;
-    height: 70px;
-
-    background-color: white;
-    color: black;
-    border-radius: 39px;
-    justify-content: center;
-    /* z-index: 1; */
-    background-color: rgb(27, 27, 27);
-  a{
-    padding-top: 17px;
-    text-decoration: none;
-    font-size: 21px;
-    color: white;
-   
-  }
-
-   
-
-}
- .wallpaper {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-    
-}
-
-.home {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    animation: slide 15s infinite;
-    background-position: center;
-    opacity: 0; 
-    text-align: center;
-    font-size: 65px;
-    color: gray;
-    padding-top: 2%;
-} 
-
-.welcome {
-    animation-delay: 0s;
-    background-image: url(images/Welcome-Ankola.jpg)}
-
-.discover {
-    animation-delay: 5s;
-    background-image: url(images/Ankola-Resturant.jpg)
-}
-.exprience {
-    animation-delay: 10s;
-    background-image: url(images/Ankola-grill.jpg);
-}
-
-.taste {
-    animation-delay: 15s;
-    background-image: url(images/Jells.jpg);
-}
-
-.savour {
-    animation-delay: 20s;
-    background-image: url(images/Ankole-ingredients.jpg);
-}
-
-@keyframes slide {
-
-    0%,
-    100% {
-        opacity: 0;
-    }
-
-    20%,
-    40% {
-        opacity: 1;
-    }
-
-    60%,
-    100% {
-        opacity: 0;
-    }
-}  
 /* above was for the sliding */
 .options a{
     text-decoration: none;
@@ -130,8 +11,8 @@ body{
 
 .optionsMenu{
     text-align: center;
-    align-items: cn;
-    margin-top: -9%;
+  
+    margin-top: 9%;
     position: absolute;
     z-index: 1;
     margin-left: 25%;
@@ -143,8 +24,8 @@ body{
     }
   
     display: flex;
-    gap: 5%;
-    width: 43%;
+    gap: 3%;
+    width: 41%;
     border: solid black 1px;
     height: 70px;
 
@@ -177,6 +58,8 @@ body{
 
 
 }
+
+
 
 /* above is for the navbar */
 
@@ -240,21 +123,37 @@ i{
     h1{
         color: white;
         font-size: 55px;
-
+        text-decoration: none;
     }
     p{
         color: red
     }  
    
      }
+     a{
+        justify-content: space-between;
+        text-decoration: none;
+     }
+   
+     #optionmenu{
+         z-index: 3;
+         margin-top: 10%;
+     }
 
 .leftsidemenu{
+    h1{
+        font-size: 50px;
+    }
+   
         width: 50%;
         background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c34fee7c31fcb2f8c3700b_001.jpg);
         
 
      }
 .rightsidemenu{
+    h1{
+        font-size: 50px;
+    }
         width: 50%;
        background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65e5a29a2a2b1c4a493fff75_ankolegrill_Kilimani-Nights.jpg);
        background-size: cover;
@@ -280,7 +179,7 @@ i{
 
 /* .reservation  */
 
-
+/* 
 .logo{
    
     position: absolute;
@@ -304,7 +203,7 @@ i{
 
 
 .reservationText{
- /* padding-top: 10%;   i cant add my logo and my texts */
+
     width: 50%;
     background-image: url(images/flowerResservation.jpg);
     background-size: cover;
@@ -356,12 +255,13 @@ i{
 }
 #optionRegister{
     margin-left: 3%;
-}
+} */
 /* reservation is done here */
 
-.conotactBackground{
+/* .conotactBackground{
+    background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(27, 26, 26, 0.5)),  url(images/Welcome-Ankola.jpg);
     width: 100%;
-    background-image:  url(images/Welcome-Ankola.jpg);
+
     background-repeat: no-repeat;
     background-size: cover ;
     color:white;
@@ -373,7 +273,7 @@ i{
 
 
 .contactInfo{
-   
+  
     gap: 3%;
     display: flex;
     left: 50%;
@@ -392,11 +292,16 @@ i{
     transform: translate(-50%, -50%);
 
 }
+    a{
+        text-decoration: none;
+    }
 
 
 .kitisuru{
+
+    
     border: 2px solid white;
-   height: 250px;
+   height: 278px;
       width: 400px;
     padding-left:3%;
     padding-right:3%;
@@ -408,56 +313,259 @@ i{
     padding-left:3%;
     height: 320px;
     padding-right:3%;
-}
+} */
 
 /* eventof ankole */
-.eventInfo{
+
+
+/* .eventInfo{
+     
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+
+    text-align: center;
     display: flex;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 17px;
+    h{
+        font-size: 20px;
+    }
 }
+
+.Accra{
+   
+      filter: brightness(50%);
+    padding-top: 23%;
+    background-image:  url(images/firstcontact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 33.3%;
+    height: 100vh;
+}
+
+.Nairobi{
+    
+    padding-top: 23%;
+    background-image:  url(images/secondcontact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 33.3%;
+    height: 100vh;
+}
+
+
+
+.Zanzibar{
+    padding-top: 23%;
+    background-image:  url(images/thirdcontact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 33.3%;
+    height: 100vh;
+}
+
+#navbarEvents{
+    text-align: center;
+    position: absolute;
+    bottom: 4%;
+    /* i{
+        font-size: 30px;
+        color: white;
+    } */
+/* }
+#pavilion{
+    color: gray;
+}
+#yellow{
+    color: rgb(235, 168, 45);
+} */ */
+
+
+
+
+
+
+
+
+
+/* eventof ankole */
+
+
+
 .kitisurucontainer{
     width: 100%;
     display: flex;
 }
 
-.kitisuru-menu-text{
-    text-align: center;
-    font-size: 40px;
-    height: 1oovh;
-    background-size: cover;
-    position: absolute;
-    z-index: 1;
-    p{
-        color: white;
-    }
-    h3{
-        color: red;
-    }
 
- 
-}
-.kitisuru-menu{
-    background-image:url(images/rugs.jpeg) ; 
+
+
+
+.kitisuru-menu-left{
+
+    overflow-y: hidden;
     position: relative; 
     width: 50%;  
-    display: flex;
+ overflow: hidden;
+
     background-size: cover;
     height: 100vh;
 }
 
-#optionKISmenu{
-margin-top: 10px;
-}
-.kitisuru-menu-list{
-    background-color: black;
-    height: 100vh;
-    width: 50%;
-a{
+.menu-item{
     color: white;
+    padding-right: 2%;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-item-detail{
+    display: flex;
+    align-items: center;
    
 }
-}
-.breakfast{
-    position: absolute;
+.menu-item-description{
+   
+    align-items: center;
     color: white;
-    
 }
+
+.menus{
+    color: white;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* 
+
+
+
+/* livepage */
+/* .live{
+   
+    overflow-y: scroll;
+    background-image: linear-gradient(rgba(34, 33, 33, 0.9), rgba(27, 26, 26, 0.7)),  url(images/drum-live.jpg);
+
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+ 
+    
+img{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+}
+#fadhilee{
+    padding: 5px;
+    background-color: pink;
+    border-radius: 0.6rem;
+    img{
+        border-radius: 0.6rem;
+
+    }
+}
+#fadhile{
+    padding: 5px;
+    background-color: rgb(34, 74, 90);
+    border-radius: 0.6rem;
+    img{
+        border-radius: 0.6rem;
+
+    }
+}
+#fadhil{
+    padding: 5px;
+    background-color: rgb(245, 237, 239);
+    border-radius: 0.6rem;
+    img{
+        border-radius: 0.6rem;
+
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.first-live{
+    margin-left: 3%;
+    img:hover{
+        border-radius: 0.6rem;
+        transform: scale(1.03);
+        border-color: transparent;
+    }
+    p{
+        color: red;
+    }
+    gap: 3%;
+    display: flex;
+    color: white;
+    margin-bottom: 10%;
+}
+.live-details{
+    font-size: 21px;
+    margin-top: 12%;
+    gap: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.live-text{
+    text-align: center;
+    position: absolute;
+    bottom: 40% ;
+    left: 20%;  
+    line-height: 0.2; 
+ h1{
+    font-size: 70px;
+    color: white;
+ }
+h2{
+    font-size: 30px;
+    color: red;
+}
+}
+#navbarLive{
+    
+    margin-top: 43%;
+    margin-left: 1%;
+}
+#live-logo{
+    top: 7%;
+}
+.left-live{
+    width: 50%;  
+}
+.live-pictures{
+    height:100vh ;  
+    width: 50%;
+} */

@@ -1,0 +1,200 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0%;
+}
+#ankole-logo {
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    position: absolute;
+    width: 22vb;
+ }
+ .options a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+ }
+ 
+ .optionsMenu{
+    a:hover{
+        color: gray ;
+ }
+}
+ .optionsMenu{
+    margin: auto;
+    left: 0;
+    right: 0;
+    border: none;
+    text-align: center;
+ 
+  
+    bottom: 9%;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    /* margin-left: 25%; */
+   
+  
+    i{
+    
+       color: gray;
+    }
+  
+    display: flex;
+    gap: 3.2%;
+    width: 41%;
+    border: solid black 1px;
+    height: 79px;
+ 
+    background-color: white;
+    color: black;
+    border-radius: 39px;
+    justify-content: center;
+  
+    background-color: rgb(2, 2, 2);
+  a{
+
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+   
+  }
+ 
+ 
+
+}
+.reserve{
+    font-size: 17px;
+    color: white;
+text-align: center;
+background-color:grey ;
+border: 37px;
+border-radius: 24px;
+width: 140px;
+height: 49px;
+}
+
+
+.reserve:hover{
+
+background-color: white;
+border-radius: 24px;
+color: black;
+
+}
+
+.eventInfo{
+   
+     
+    line-height: 1;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 24px;
+    h{
+        font-size: 20px;
+    }
+}
+
+#titleEvent{
+font-size: 20px;
+}
+.Accra{
+    background-image: linear-gradient(rgba(34, 33, 33, 1), rgba(27, 26, 26, 0.5)),  url(images/firstcontact.jpg);
+    width: 100%;
+    padding-top: 23%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 33.3%;
+    height: 100vh;
+}
+
+.Nairobi{
+    background-image: linear-gradient(rgba(34, 33, 33, 1), rgba(27, 26, 26, 0.5)),  url(images/secondcontact.jpg);
+    width: 100%;
+    padding-top: 23%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 33.3%;
+    height: 100vh;
+}
+
+
+
+.Zanzibar{
+    background-image: linear-gradient(rgba(34, 33, 33, 0.7), rgba(27, 26, 26, 0.5)),  url(images/thirdcontact.jpg);
+    width: 100%;
+    padding-top: 23%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 33.3%;
+    height: 100vh;
+}
+
+#navbarEvents{
+    text-align: center;
+    position: absolute;
+    bottom: 4%;
+  
+}
+#pavilion{
+    color: gray;
+}
+#yellow{
+    color: rgb(235, 168, 45);
+}
+.social-platforms{
+    width: 5%;
+    display: flex;
+    position: absolute;
+    right: 1%;
+    top: 4%;
+    gap: 20%;
+    a{
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+
+
+#socials{
+    padding: 10px;
+    font-size: medium;
+    z-index: 10;
+    display: flex;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid gray;
+
+}
+#whatsapp{
+    bottom: 8%;
+    right: 3%;
+    padding: 0.5% 0.6%;
+    position: absolute;
+    position: fixed;
+    padding: 10px;
+    font-size: 45px;
+    z-index: 10;
+    display: flex;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-color: black;
+
+    a{
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+}
